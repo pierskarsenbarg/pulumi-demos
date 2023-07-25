@@ -1,0 +1,19 @@
+{
+  "name": "auto-api-deploy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^14"
+  },
+  "dependencies": {
+    "@pulumi/pulumi": "^3.75.0",
+    "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "start": "./node_modules/ts-node/dist/bin.js index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
