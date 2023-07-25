@@ -1,0 +1,18 @@
+{
+  "name": "inline-program",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/ts-node/dist/bin.js index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@pulumi/aws": "^5.42.0",
+    "@pulumi/pulumi": "^3.76.0",
+    "@types/node": "^20.4.4",
+    "ts-node": "^10.9.1"
+  }
+}
