@@ -26,7 +26,7 @@ valid_kubernetes_version = ResourceValidationPolicy(
 )
 
 PolicyPack(
-    name="azure-python",
+    name="azure-python-kubernetes",
     enforcement_level=EnforcementLevel.MANDATORY,
     policies=[
         valid_kubernetes_version,

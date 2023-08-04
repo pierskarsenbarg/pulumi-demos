@@ -1,5 +1,5 @@
 runtime:
-  name: python
+  name: azure-python-kubernetes
   options:
     virtualenv: venv
 version: 0.0.1
