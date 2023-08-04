@@ -11,7 +11,7 @@ const lambda = new aws.lambda.CallbackFunction("simpleApiLambda", {
         console.log(e);
         return {
             statusCode: 200,
-            body: JSON.stringify({message: "Hello, World!"})
+            body: JSON.stringify({message: "Hello, World from Pulumi!"})
         };
     },
     role: lambdaRole
