@@ -10,7 +10,7 @@ k8s_provider = Provider("provider", kubeconfig=application_config.kube_config)
 application = Application(
     "kuad",
     ApplicationArgs(
-        replicas=1,
+        replicas=2,
         application_name="kuad",
         image_uri=application_config.application_image,
         container_port=8080,
