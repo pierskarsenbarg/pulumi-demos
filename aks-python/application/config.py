@@ -17,5 +17,5 @@ class ApplicationConfig():
         org_name = config.require("orgname")
 
         cluster_stackreference = StackReference(
-            f"{org_name}/monorepo-k8s-cluster/{stack_name}")
+            f"{org_name}/monorepo-k8s-cluster/dev")
         self.kube_config = cluster_stackreference.require_output("kube_config")
