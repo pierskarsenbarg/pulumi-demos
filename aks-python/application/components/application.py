@@ -1,4 +1,4 @@
-from pulumi import ComponentResource, ResourceOptions
+from pulumi import ComponentResource, ResourceOptions, Output
 from pulumi_kubernetes.core.v1 import (
     Namespace,
     PodTemplateSpecArgs,
