@@ -1,0 +1,6 @@
+name: monorepo-k8s-application
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Application deployment

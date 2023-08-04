@@ -1,0 +1,6 @@
+name: monorepo-k8s-base
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Base infrastructure

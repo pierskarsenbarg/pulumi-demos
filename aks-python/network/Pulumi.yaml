@@ -1,0 +1,6 @@
+name: monorepo-k8s-network
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Network infrastructure

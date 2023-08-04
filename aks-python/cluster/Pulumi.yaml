@@ -1,0 +1,6 @@
+name: monorepo-k8s-cluster
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: K8s Cluster infrastructure
