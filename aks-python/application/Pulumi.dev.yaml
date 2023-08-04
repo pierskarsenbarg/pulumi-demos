@@ -1,5 +1,5 @@
 config:
   azure-native:location: uksouth
   monorepo-k8s-application:applicationimage: gcr.io/kuar-demo/kuard-amd64:blue
-  monorepo-k8s-application:hostname: pk-kuard.pulumi-ce.team
+  monorepo-k8s-application:hostname: dev-pk-kuard.pulumi-ce.team
   monorepo-k8s-application:orgname: pierskarsenbarg
