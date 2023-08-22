@@ -8,7 +8,9 @@ const k8sVersionPolicy: ResourceValidationPolicy = {
     description: "Ensure that the kubernetes version is compliant",
     enforcementLevel: "mandatory",
     validateResource: validateResourceOfType(aws.eks.Cluster, (cluster, args, reportViolation) => {
-        if(cluster.version !== undefined && supportedVersions.indexOf(cluster.version) === -1) {
+        if(cluster.version !== undefined &&
+            cluster.version.length > 4 && 
+            supportedVersions.indexOf(cluster.version.substring(0, 3)) === -1) {
             reportViolation(
                 "Kubernetes API version must be either 1.27 or 1.26 or 1.25"
             )
