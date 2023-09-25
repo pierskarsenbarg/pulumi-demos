@@ -16,7 +16,7 @@ const run = async () => {
     // in the ../website directory
     const args: LocalProgramArgs = {
         stackName: "dev",
-        workDir: upath.joinSafe(__dirname, "..", "..", "simple-api-example"),
+        workDir: upath.joinSafe(__dirname, "..", "..", "simple-api"),
     };
 
     // create (or select if one already exists) a stack that uses our local program
