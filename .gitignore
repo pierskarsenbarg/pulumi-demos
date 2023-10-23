@@ -1,2 +1,6 @@
 venv
 node_modules
+aks/ts/application/Pulumi.dev.yaml
+aks/ts/base/Pulumi.dev.yaml
+aks/ts/cluster/Pulumi.dev.yaml
+aks/ts/network/Pulumi.dev.yaml
